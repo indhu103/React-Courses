@@ -22,13 +22,11 @@ const courseData = [
         author: "Ivan Lourence Gomes"
     },
 ]
-const action=()=>{
-    return "added"
-}
+
 const CourseList = () => {
     let coursesList = courseData.map((course,i) => {
         return (
-            <Course key={i} image={course.image} title={course.title} author={course.author} result={action()} />
+            <Course key={i} image={course.image} title={course.title} author={course.author}   />
         );
     });
     return (
