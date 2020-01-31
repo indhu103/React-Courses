@@ -1,0 +1,11 @@
+.Course{
+  margin: 20px;
+  padding:10px;
+  border:1px solid black;
+  width:400px;
+  height:auto
+}
+.Container{
+  display: inline;
+  float:left;
+}
